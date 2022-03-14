@@ -3,6 +3,8 @@
 Plugin to generate terrain for Minecraft Java with nukkit.  
 This is not a product of Minecraft, nor is it endorsed or associated with Mojang.
 
+BOOTH: https://tedo0627.booth.pm/items/3719253
+
 ## Be careful
 1. It may not work depending on the environment. Please be sure to try a sample before purchasing.  
 In my case, it worked on my desktop PC and rental vps server, but not on my laptop.
