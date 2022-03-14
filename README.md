@@ -9,6 +9,11 @@ In my case, it worked on my desktop PC and rental vps server, but not on my lapt
 2. This plugin does not include commands for generating worlds.
 3. This plugin is loaded in a special way that may cause other plugins to stop working.
 
+## Differences between the production and sample versions
+1. Only supported generator is overworld.
+2. Only 16x16 chunks in the generated range
+3. No building is generated.
+
 ## How to install
 1. Download the Minecraft 1.16.5 server.  
 https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
