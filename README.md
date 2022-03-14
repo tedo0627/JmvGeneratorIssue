@@ -1,13 +1,19 @@
 # JmvGenerator
 
-Plugin to generate terrain for Minecraft Java with nukkit  
-This is not a product of Minecraft, nor is it endorsed or associated with Mojang
+Plugin to generate terrain for Minecraft Java with nukkit.  
+This is not a product of Minecraft, nor is it endorsed or associated with Mojang.
+
+## Be careful
+1. It may not work depending on the environment. Please be sure to try a sample before purchasing.  
+In my case, it worked on my desktop PC and rental vps server, but not on my laptop.
+2. This plugin does not include commands for generating worlds.
+3. This plugin is loaded in a special way that may cause other plugins to stop working.
 
 ## How to install
-1. Download the Minecraft 1.16.5 server  
+1. Download the Minecraft 1.16.5 server.  
 https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 
-2. Unzip the downloaded zip file and arrange the files like a tree
+2. Unzip the downloaded zip file and arrange the files like a tree.
 ```
 ├── plugins/
 │   └── JmvGeneratorPlugin.jar
@@ -17,15 +23,15 @@ https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/
 └── JmvLib.jar
 ```
 
-3. Execute command
+3. Execute command.
 ```
 java -jar JmvLoader.jar -library JmvLib.jar
 ```
 
-4. Agree with eula  
+4. Agree with eula.  
 Agree as eula.txt is generated.
 
-5. Execute the command again
+5. Execute the command again.
 
 ## JmvLoader argment
 |name|description|
@@ -48,8 +54,8 @@ java -jar JmvLoader.jar -nukkit nukkit-1.0-SNAPSHOT.jar -minecraft server.jar -l
 - jmv_floating_is_land (use biome option)
 
 ## Biome option
-Fill in the presets to specify the biome  
-The biome that can be used is the Java version of the biome name
+Fill in the presets to specify the biome.  
+The biome that can be used is the Java version of the biome name.
 <details>
  <summary>
   List of biome
@@ -138,7 +144,7 @@ The biome that can be used is the Java version of the biome name
  </ul>
 </details>
 
-Example
+#### Example
 ```
 worlds:
  sample_world:
