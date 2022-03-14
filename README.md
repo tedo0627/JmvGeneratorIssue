@@ -1,5 +1,5 @@
+[English](README.md)|[日本語](README_JPN.md)
 # JmvGenerator
-
 Plugin to generate terrain for Minecraft Java with nukkit.  
 This is not a product of Minecraft, nor is it endorsed or associated with Mojang.
 
